@@ -16,7 +16,7 @@ namespace RPCExample
             {
                 // Confirm our Server is sending the RPC
 
-                string consumedItem = pkg.ReadString();
+                var consumedItem = pkg.ReadString();
 
                 if (consumedItem != "") // Make sure it isn't empty
                     Chat.instance.AddString("Server", consumedItem,
@@ -44,7 +44,7 @@ namespace RPCExample
             if (sender == ZRoutedRpc.instance.GetServerPeerID() && pkg != null && pkg.Size() > 0)
             {
                 // Confirm our Server is sending the RPC
-                string msg = pkg.ReadString(); // Get Our Msg
+                var msg = pkg.ReadString(); // Get Our Msg
                 if (msg != "") // Make sure it isn't empty
                     Chat.instance.AddString("Server", "<color=\"red\">" + msg + "</color>",
                         Talker.Type.Normal); // Add to chat with red color because it's an error
@@ -61,7 +61,7 @@ namespace RPCExample
             if (sender == ZRoutedRpc.instance.GetServerPeerID() && pkg != null && pkg.Size() > 0)
             {
                 // Confirm our Server is sending the RPC
-                string msg = pkg.ReadString(); // Get Our Msg
+                var msg = pkg.ReadString(); // Get Our Msg
                 if (msg != "") // Make sure it isn't empty
                     Chat.instance.AddString("Server", "<color=\"green\">" + msg + "</color>",
                         Talker.Type.Normal); // Add to chat with red color because it's an error

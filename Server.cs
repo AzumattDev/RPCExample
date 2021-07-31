@@ -16,14 +16,14 @@ namespace RPCExample
             if (pkg != null && pkg.Size() > 0)
             {
                 // Check that our Package is not null, and if it isn't check that it isn't empty.
-                ZNetPeer
+                var
                     peer = ZNet.instance
                         .GetPeer(sender); // Get the Peer from the sender, to later check the SteamID against our Adminlist.
                 if (peer != null)
                 {
                     // Confirm the peer exists
-                    string peerSteamID = peer.m_rpc.GetSocket().GetHostName(); // Get the SteamID from peer.
-                    string consumedItem = pkg.ReadString(); // Read the user's consumed item.
+                    var peerSteamID = peer.m_rpc.GetSocket().GetHostName(); // Get the SteamID from peer.
+                    var consumedItem = pkg.ReadString(); // Read the user's consumed item.
                     RPCExample.RpcExampleLogger.LogMessage(
                         $"Peer: {peerSteamID} has consumed {Localization.instance.Localize(consumedItem)}");
                     ZPackage newPkg = new();
