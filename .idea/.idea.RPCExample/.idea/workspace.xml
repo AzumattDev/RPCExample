@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="361c0125-5e45-494f-8d72-e8d68271b699" name="Default Changelist" comment="Init" />
+    <list default="true" id="361c0125-5e45-494f-8d72-e8d68271b699" name="Default Changelist" comment="Add Nullable, Optimize, and AllowUnsafeBlocks">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPCExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPCExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Main.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,11 +21,14 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/crypt/RiderProjects/RPCExample/Server.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Client.cs" />
-      <option value="$PROJECT_DIR$/Main.cs" />
       <option value="$PROJECT_DIR$/Server.cs" />
+      <option value="$PROJECT_DIR$/Main.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1w4Ro1piPiGgJYuqc4nzmE5QMgR" />
@@ -38,8 +44,11 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -64,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627716046130</updated>
       <workItem from="1627716053890" duration="705000" />
-      <workItem from="1627716881699" duration="141000" />
+      <workItem from="1627716881699" duration="1962000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1627716692282</created>
@@ -73,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627716692282</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init">
+      <created>1627717051837</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627717051837</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add Nullable, Optimize, and AllowUnsafeBlocks">
+      <created>1627717371504</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627717371504</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +123,7 @@
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Add Nullable, Optimize, and AllowUnsafeBlocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Nullable, Optimize, and AllowUnsafeBlocks" />
   </component>
 </project>
